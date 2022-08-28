@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Afrekenen</title>
+    <link rel="shortcut icon" href="/static/images/2-removebg-preview.png" th:href="@{/images/2-removebg-preview.png}">
+
+    <!-- CSS only -->
+    <!-- <link rel="stylesheet" th:href="@{/css/style.css}"> -->
+    <link rel="stylesheet" th:href="@{/css/new.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" th:href="@{/index}" style="margin-left: 20px;">Derdehans.be</a>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" th:href="@{/form}">New Products</a>
+                </li>
+                <li class="nav-item" style="margin-right:20px;">
+                    <a class="nav-link" th:href="@{/about}">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- MAIN -->
+
+    <!-- END MAIN -->
+
+    <!-- START FOOTER (link: https://codepen.io/scanfcode/pen/MEZPNd)-->
+    <!-- Site footer -->
+    <footer class="site-footer" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <img class="img" src="../static/images/3dehans-removebg-preview.png" alt="3dehans logo" style="width: 250px;" th:src="@{/images/3dehans-removebg-preview.png}">
+                    <p class="text-justify">
+                        Beste website ooit, geloof je me niet? <br>
+                        Test het dan en zie of je niks verkocht krijgt.
+                        <i>BUISNESS 100</i>
+                    </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Klantenservice</h6>
+                    <ul class="footer-links">
+                        <li><a th:href="@{/geldzaken}">Geldzaken</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Meer over Derdehans.be</h6>
+                    <ul class="footer-links">
+                        <li><a th:href="@{/about}">Over ons</a></li>
+                        <li><a th:href="@{/contact}">Contact opnemen</a></li>
+                        <li><a th:href="@{/privacy}">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2022 Copyright:
+                    <a class="text-reset fw-bold" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Very professional</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+</body>
+</html>
